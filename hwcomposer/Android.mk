@@ -24,7 +24,7 @@ LOCAL_SHARED_LIBRARIES := liblog libEGL libhardware libutils libdrm \
 LOCAL_C_INCLUDES += system/core/include/utils/ external/drm_gralloc \
                     external/libdrm external/libdrm/include/drm
 
-LOCAL_SRC_FILES := Hwc2Device.cpp hwc2_rpi.cpp hwcomposer.cpp
+LOCAL_SRC_FILES := Hwc2Device.cpp hwc2_rpi.cpp
 
 LOCAL_CFLAGS := -DEGL_EGLEXT_PROTOTYPES -DLOG_TAG=\"hwcomposer\"
 LOCAL_MODULE := hwcomposer.rpi3
